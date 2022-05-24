@@ -13,7 +13,7 @@ This is the main GatoDAO smart contract development repository.
 
 ```sh
 # Clone the repository
-git clone https://github.com/stackpower103/gatodao-forked-Olympus.git
+git clone https://github.com/stackpower103/gatodao-forked-olympus.git
 
 # Install dependencies
 yarn install
