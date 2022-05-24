@@ -1,7 +1,6 @@
-# Ω Olympus Smart Contracts 
-![image](https://img.shields.io/github/forks/OlympusDAO/olympus-contracts?style=social)
+# GatoDAO Smart Contracts 
 
-This is the main Olympus smart contract development repository.
+This is the main GatoDAO smart contract development repository.
 
 ## 🔧 Setting up local development
 
@@ -14,7 +13,7 @@ This is the main Olympus smart contract development repository.
 
 ```sh
 # Clone the repository
-git clone https://github.com/OlympusDAO/olympus-contracts.git
+git clone https://github.com/stackpower103/GatoDAO-forked-OlympusDAO.git
 
 # Install dependencies
 yarn install
@@ -51,27 +50,3 @@ copy .env.example .env # (windows)
 # Then, start the node
 make run
 ```
-
-## 📜 Contract Addresses
-
- - For [Ethereum Mainnet](./docs/deployments/ethereum.md).
- - For [Rinkeby Testnet](./docs/deployments/rinkeby.md).
-
-### Notes for `localhost`
--   The `deployments/localhost` directory is included in the git repository,
-    so that the contract addresses remain constant. Otherwise, the frontend's
-    `constants.ts` file would need to be updated.
--   Avoid committing changes to the `deployments/localhost` files (unless you
-    are sure), as this will alter the state of the hardhat node when deployed
-    in tests.
-
-## 📖 Guides
-
-### Contracts
-- [Allocator Contribution Guidelines](https://hackmd.io/@3_ZONBhqRBukBJN302eDdQ/rk4qUyOlq)
-- [Allocator Interaction Instructions](https://hackmd.io/@OxbBIYzRTlqgmpSwc1bwWA/SJflVXcWq)
-- [Allocator version 1 guide (1.0.0)](./docs/guides/allocator_v1_guide.md).
-- [System Architecture (image)](./docs/guides/system_architecture.md)
-### Testing
-- [Hardhat testing guide](./docs/guides/hardhat_testing.md)
-- [Dapptools testing guide](./docs/guides/dapptools.md)
